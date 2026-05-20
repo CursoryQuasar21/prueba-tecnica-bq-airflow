@@ -1,0 +1,15 @@
+[project]
+name = "prueba-tecnica-data-engineering"
+version = "0.1.0"
+description = "Base project for a professional Data Engineering technical test."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
