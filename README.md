@@ -46,11 +46,13 @@ src/
     logger.py                      Logger comun del proyecto
 tests/                             Carpeta preparada para tests
 credentials/                       Credenciales locales ignoradas por Git
+capturas/                          Evidencias de validacion en BigQuery
 run_api_check.py                   Validacion manual de extraccion API
 run_bigquery_load_check.py         Validacion manual de carga RAW
 check_bigquery.py                  Validacion temporal de conexion BigQuery
 requirements.txt                   Dependencias del proyecto
 pyproject.toml                     Configuracion base Python
+Prueba Tecnica.pdf                 PDF original de la prueba tecnica
 ```
 
 ## Tecnologias
@@ -61,6 +63,15 @@ pyproject.toml                     Configuracion base Python
 - SQL
 - Apache Airflow 2.x
 - GitHub
+
+## Evidencias
+
+La carpeta `capturas/` contiene evidencias visuales de validacion en BigQuery. Incluye ejemplos de:
+
+- Tabla RAW en `SANDBOX_prueba_tecnica.comments_raw`.
+- Tabla final en `INTEGRATION.integration_prueba_tecnica`.
+
+El archivo `Prueba Tecnica.pdf` se incluye como referencia del enunciado original de la prueba tecnica.
 
 ## Parte 2: Extraccion y Carga RAW
 
